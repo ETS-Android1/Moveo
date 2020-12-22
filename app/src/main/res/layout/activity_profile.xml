@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="271dp"
+        android:layout_height="189dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/profiilikuva" />
+
+
+    <TextView
+        android:id="@+id/otsikkoNimi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Nimi" />
+
+    <TextView
+        android:id="@+id/txtViewNimi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otsikkoNimi"
+        android:layout_marginLeft="50dp"
+        android:inputType="text"
+        android:text="Pekka Pahvi"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/otsikkoIka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewNimi"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Ikä" />
+
+    <TextView
+        android:id="@+id/txtViewIka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otsikkoIka"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:text="34"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/otsikkoSukupuoli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewIka"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Sukupuoli" />
+
+    <TextView
+        android:id="@+id/txtViewSukupuoli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otsikkoSukupuoli"
+        android:layout_marginLeft="50dp"
+        android:inputType="text"
+        android:text="Mies"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/otsikkoSahkoposti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewSukupuoli"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Sähköposti" />
+
+    <TextView
+        android:id="@+id/txtViewSahkoposti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otsikkoSahkoposti"
+        android:layout_marginLeft="50dp"
+        android:inputType="textEmailAddress"
+        android:text="Pekka.pahvi3@gmail.com"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/otsikkoMaksutiedot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewSahkoposti"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Maksutiedot" />
+
+    <TextView
+        android:id="@+id/txtViewMaksutiedot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otsikkoMaksutiedot"
+        android:layout_marginLeft="50dp"
+        android:inputType="numberPassword"
+        android:text="2345 6423 6543 4960"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnMuokkaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewMaksutiedot"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Muokkaa tietoja"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

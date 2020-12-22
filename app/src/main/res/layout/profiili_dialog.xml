@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/otsikkoNimi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nimi"
+            android:layout_below="@+id/imageView"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/editTxtNimi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Etunimi Sukunimi"
+            android:layout_below="@+id/otsikkoNimi"
+            android:layout_marginLeft="50dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/otsikkoIka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ikä"
+            android:layout_below="@+id/editTxtNimi"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/editTxtIka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ikä"
+            android:layout_below="@+id/otsikkoIka"
+            android:layout_marginLeft="50dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/otsikkoSukupuoli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sukupuoli"
+            android:layout_below="@+id/editTxtIka"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/editTxtSukupuoli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="sukupuoli"
+            android:layout_below="@+id/otsikkoSukupuoli"
+            android:layout_marginLeft="50dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/otsikkoSahkoposti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sähköposti"
+            android:layout_below="@+id/editTxtSukupuoli"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/editTxtSahkoposti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/otsikkoSahkoposti"
+            android:hint="esimerkki@gmail.com"
+            android:layout_marginLeft="50dp"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:id="@+id/otsikkoMaksutiedot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maksutiedot"
+            android:layout_below="@+id/editTxtSahkoposti"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/editTxtMaksutiedot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="xxxx xxxx xxxx xxxx"
+            android:layout_below="@+id/otsikkoMaksutiedot"
+            android:layout_marginLeft="50dp"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+</ScrollView>
