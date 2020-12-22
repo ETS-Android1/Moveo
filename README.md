@@ -8,8 +8,8 @@
 
 # Demo
 Sovelluksemme idea on listata kaikki käyttäjää lähellä olevat eri palveluntarjoajien ryhmäliikuntatunnit. Käyttäjä voi valita mieleisensä kategorian esimerkiksi mailapelit. Tämän jälkeen käyttäjä valitse mille tunnille haluaa osallistua ja voi valintansa jälkeen ilmoittautua tunnille suoraan sovelluksesta. Sovellukseen syötetään myös käyttäjän tiedot ja se näyttää myös menneet ja tulevat tunnit.
+Teimme sovelluksesta demon, jossa valmiiksi syötetyille ryhmäliikuntatunneille pystyy ilmoittautumaan ja tunnit, joihin on ilmoittauduttu, näkyy tulevissa tunneissa. Myös käyttäjän tiedot voidaan syöttää profiili näkymässä.
 
-Teimme sovelluksesta demon jossa valmiiksi syötetyille ryhmäliikuntatunneille pystyy ilmoittautumaan ja tunnit joihin on ilmoittauduttu näkyy tulevissa tunneissa. Myös käyttäjän tiedot voidaan syöttää profiili näkymässä.
 
 
 # Tekijät
