@@ -14,5 +14,5 @@ Teimme sovelluksesta demon, jossa valmiiksi syötetyille ryhmäliikuntatunneille
 
 
 # Tekijät
-Android hyvinvointi sovellus on toteutettu Metropolia Ammattikorkeakoulussa TiVi tutkinnon ensimmäisen vuoden ensimmäisenä projektina. Sovellus tehtiin ryhmätyönä ja sen tekemiseen ovat osallistuneet Toni Franciskovic, Aivan Vo, Kasperi Kiviluoma ja Joakim Äikiä.
+Android hyvinvointisovellus on toteutettu Metropolia Ammattikorkeakoulussa TiVi tutkinnon ensimmäisen vuoden ensimmäisenä projektina. Sovellus tehtiin ryhmätyönä ja sen tekemiseen ovat osallistuneet Toni Franciskovic, Aivan Vo, Kasperi Kiviluoma ja Joakim Äikiä.
 
