@@ -19,5 +19,6 @@ We made a demo of the app. There is a few preconfigured group exercise classes, 
 
 
 # Contributors
-This android fitness application has been made at Metropolia University of Applied Sciences as the first project of the first year of the TiVi degree. The application was made as a group effort and in its making have participated **Toni Franciskovic**, **Aivan Vo**, **Kasperi Kiviluoma** ja **Joakim Äikiä**.
+This android fitness application has been made at Metropolia University of Applied Sciences as the first project of the first year of the TiVi degree. The application was made as a group effort and in its making have participated 
+**Toni Franciskovic**, **Aivan Vo**, **Kasperi Kiviluoma** ja **Joakim Äikiä**.
 
