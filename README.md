@@ -1,8 +1,8 @@
 # Moveo
 <p align="left">
-  <img src=Screenshot_1608642364.png width="200" title="hover text">
-  <img src=Screenshot_1608642386.png width="200" alt="accessibility text">
-  <img src=Screenshot_1608642398.png width="200" alt="accessibility text">
+  <img src=Screenshot_1608642364.png width="200" alt="Moveo screenshot">
+  <img src=Screenshot_1608642386.png width="200" alt="Moveo screenshot">
+  <img src=Screenshot_1608642398.png width="200" alt="Moveo screenshot">
 </p>
 
 
