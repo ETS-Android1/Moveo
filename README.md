@@ -10,7 +10,7 @@
 # Demo
 The idea of our app is to list all the group exercise classes of different providers near the user. For example, racket games can be selected by the user. After that, the user chooses which class to participate in and can sign up for the class directly from the app.
 
-We made a demo of the app. There are a few pre-configured group exercise classes, which user can choose and sign up. User data can be entered in a profile view.
+We made a demo of the app. There are a few pre-configured group exercise classes, which user can choose and sign up. Additionally, user data can be entered in a profile view.
 
 
 
